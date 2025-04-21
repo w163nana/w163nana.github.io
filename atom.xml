@@ -6,7 +6,7 @@
   <link href="https://w163nana.github.io/atom.xml" rel="self"/>
   
   <link href="https://w163nana.github.io/"/>
-  <updated>2025-04-13T12:28:16.109Z</updated>
+  <updated>2025-04-21T14:28:54.072Z</updated>
   <id>https://w163nana.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python爬取YouTube视频大失败</title>
+    <link href="https://w163nana.github.io/wiki/python%E7%88%AC%E5%8F%96YouTube%E8%A7%86%E9%A2%91%E5%A4%A7%E5%A4%B1%E8%B4%A5/"/>
+    <id>https://w163nana.github.io/wiki/python%E7%88%AC%E5%8F%96YouTube%E8%A7%86%E9%A2%91%E5%A4%A7%E5%A4%B1%E8%B4%A5/</id>
+    <published>2025-04-21T14:02:43.000Z</published>
+    <updated>2025-04-21T14:28:54.072Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天和周涛组队做一个有关多克隆抗体的课堂展示，需要下载一个youtube视频。由于我之前学过一次，便信誓旦旦地把活儿接下来了。结果居然发现我忘记怎么写爬虫了。毕竟我不是专业学这个的，不能持续接触到编程的思维，所以记录就很重要了。我计划利用这个博客记录一些零碎的小收获。但是今天还没看专业教课书，就先不研究了。这学期四门专业课，加上两门课的补考，时间紧任务重，鸭梨山大啊……对了，最近我在玩《魔女的夜宴》。有压力的时候打开来看看美少女，感觉还挺不错的。今天偶然和潘宇浩单独唠了会嗑，感觉这个人还挺不错的诶。（和白容奇比起来，相处得要舒服多了）看来还是我们南方人的下数更合自己口味。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天和周涛组队做一个有关多克隆抗体的课堂展示，需要下载一个youtube视频。由于我之前学过一次，便信誓旦旦地把活儿接下来了。结果居然发现我忘记怎么写爬虫了。毕竟我不是专业学这个的，不能持续接触到编程的思维，所以记录就很重要了。我计划利用这个博客记录一些零碎的小收获。
+但</summary>
+      
+    
+    
+    
+    <category term="python" scheme="https://w163nana.github.io/categories/python/"/>
+    
+    
+    <category term="python" scheme="https://w163nana.github.io/tags/python/"/>
+    
+    <category term="爬虫" scheme="https://w163nana.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>《东北芬达哥大战邪恶元首》游戏策划</title>
