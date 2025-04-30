@@ -6,7 +6,7 @@
   <link href="https://w163nana.github.io/atom.xml" rel="self"/>
   
   <link href="https://w163nana.github.io/"/>
-  <updated>2025-04-22T08:11:24.613Z</updated>
+  <updated>2025-04-30T09:26:12.010Z</updated>
   <id>https://w163nana.github.io/</id>
   
   <author>
@@ -15,6 +15,73 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客的图片存储问题解决</title>
+    <link href="https://w163nana.github.io/wiki/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <id>https://w163nana.github.io/wiki/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</id>
+    <published>2025-04-30T09:20:09.000Z</published>
+    <updated>2025-04-30T09:26:12.010Z</updated>
+    
+    <content type="html"><![CDATA[<p> 想了各种方法：图床、网盘API、云服务代理……要么就是不靠谱，要么就是太贵或者技术力不够。最后还是决定直接把图片存在博客的source文件夹中，repo空间满了再说吧……</p><p> 刚开始的时候图片总显示不出来，最后发现相对路径只有post能用，换到首页index相对路径就变了。所以最后还是直接在source下面直接新建images文件夹，所有图片都往里面塞吧。有的时候整理得太有条理反而会浪费时间。(•̀ ω •́ )✧</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;
+ 想了各种方法：图床、网盘API、云服务代理……要么就是不靠谱，要么就是太贵或者技术力不够。最后还是决定直接把图片存在博客的source文件夹中，repo空间满了再说吧……
+&lt;/p&gt;
+&lt;p&gt;
+ 刚开始的时候图片总显示不出来，最后发现相对路径只有post能用，换到首</summary>
+      
+    
+    
+    
+    <category term="开发" scheme="https://w163nana.github.io/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="博客" scheme="https://w163nana.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="https://w163nana.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单学习如何建立代理规则</title>
+    <link href="https://w163nana.github.io/wiki/%E7%AE%80%E5%8D%95%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%BB%A3%E7%90%86%E8%A7%84%E5%88%99/"/>
+    <id>https://w163nana.github.io/wiki/%E7%AE%80%E5%8D%95%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E4%BB%A3%E7%90%86%E8%A7%84%E5%88%99/</id>
+    <published>2025-04-30T08:17:31.000Z</published>
+    <updated>2025-04-30T09:19:20.272Z</updated>
+    
+    <content type="html"><![CDATA[<p> 昨天折腾了一下多年前接触过的SAOUtils，在设置第三方邮箱客户端时发现无法在系统代理模式下连接163.com的服务器。</p><figure><img src="/images/PixPin_2025-04-30_16-27-16.png" alt="img1" /><figcaption aria-hidden="true">img1</figcaption></figure><p> 于是我想能否使特定程序绕过代理。网上能找到对特定程序禁用代理的方法，但涉及到进程等我不太熟悉的领域，而直接对特定域名(domain)禁用代理、使用直连更为简单（也更为根本得解决了问题，因为说到底就是该域名下的服务期连不上而已）</p><p> “profile”选项卡👉目标代理的右键选项卡👉“edit rules”</p><p> “rule type”选择”domain”</p><figure><img src="/images/PixPin_2025-04-30_17-10-19.png" alt="img2" /><figcaption aria-hidden="true">img2</figcaption></figure><p> 对于microsoftstore，坊间有个笑话：“直连上不了谷歌，代理上不了微软”。我不知道MicrosoftStore请求了什么域名，所以只能对该程序下手。还好Clash提供了便捷的方法。</p><p> 在”Settings”中有”UWPTools”，编程师傅还是为我这种低技术力网民考虑得很周到啊😁</p><figure><img src="/images/PixPin_2025-04-30_17-15-12.png" alt="img3" /><figcaption aria-hidden="true">img3</figcaption></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;
+ 昨天折腾了一下多年前接触过的SAO
+Utils，在设置第三方邮箱客户端时发现无法在系统代理模式下连接163.com的服务器。
+&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;/images/PixPin_2025-04-30_16-27-16.png&quot; alt</summary>
+      
+    
+    
+    
+    <category term="开发" scheme="https://w163nana.github.io/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="开发" scheme="https://w163nana.github.io/tags/%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="网络" scheme="https://w163nana.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="微软" scheme="https://w163nana.github.io/tags/%E5%BE%AE%E8%BD%AF/"/>
+    
+    <category term="刀剑神域" scheme="https://w163nana.github.io/tags/%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9F/"/>
+    
+    <category term="SAO" scheme="https://w163nana.github.io/tags/SAO/"/>
+    
+  </entry>
   
   <entry>
     <title>关于“近日来自身对负性事件的思维反刍愈发加重”的现象记录和分析</title>
